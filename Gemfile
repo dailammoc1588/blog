@@ -5,6 +5,8 @@ gem 'rails', '4.0.4'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :test do
