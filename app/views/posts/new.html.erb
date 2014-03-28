@@ -1,0 +1,21 @@
+<div class="row">
+     <div class="span6 offset3">
+        <%= form_for @post , url: posts_path do |f| %>
+            <p>
+              <%= f.label :title %>
+              <%= f.text_field :title %>
+            </p>
+
+            <p>
+              <%= f.label :text %>
+              <%= f.text_area :text %>
+            </p>
+
+            <p>
+              <%= f.submit %>
+            </p>
+        <% end %>
+<%= link_to 'Back', posts_path %>
+    </div>
+</div>
+

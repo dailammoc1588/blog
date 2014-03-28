@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
+gem 'bootstrap-sass', '3.0.3'
+gem 'sprockets', '2.11.0'
+
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
